@@ -4,6 +4,8 @@ Songs from words, on your own machine, and a room for the spoken word beside the
 
 [The Studio](https://github.com/igrbible/Ruach_Studio) · [The Wiki](https://github.com/igrbible/Ruach_Studio/wiki) · [The visiting card](https://ruachstudio.art) · [Latest release: 2.0.7](https://github.com/igrbible/Ruach_Studio/releases/tag/v2.0.7)
 
+[Awesome YUE2](https://github.com/igrbible/Awesome-YUE2): our curated list of everything the YuE2 community has made.
+
 ### Tip of the week: hear an old take through a new decoder
 
 Every take keeps the music it was made from. Open a finished take and flip its own VAE switch: the Studio decodes that same music again with RS x3 v1, RS x3 v2 or Standard in seconds, without generating the song again.
