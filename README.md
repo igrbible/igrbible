@@ -8,7 +8,9 @@ Songs from words, on your own machine, and a room for the spoken word beside the
 
 ### Coming: Full Tsunami Wave 4.6B
 
-Our own model is training on three RTX 3090s. It is YuE2-3B grown by a billion parameters in depth: ten new layers among its 28, 38 in all, 4.64 B. Each new layer was born as a silent copy of its neighbour, so before the first step the 4.6B sang bit for bit as YuE2-3B. Whatever it sings differently now, the new depth learned.
+Our own model began training on three RTX 3090s on 11 November. It is YuE2-3B grown by a billion parameters in depth: ten new layers among its 28, 38 in all, 4.64 B. Each new layer was born as a silent copy of its neighbour, so before the first step the 4.6B sang bit for bit as YuE2-3B. Whatever it sings differently now, the new depth learned.
+
+Its training is paused for now while we rebuild its data around full-band recordings: our ears heard a haze in the top of its sound, and the next phase learns from cleaner sources. Every track of the new set is measured for its true bandwidth before it goes in, and nothing synthetic goes in at all.
 
 It will ship as a model of its own, **Full Tsunami Wave 4.6B v1 by Ruach Studio**:
 
