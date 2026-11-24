@@ -2,7 +2,7 @@
 
 Songs from words, on your own machine, and a room for the spoken word beside them. On Linux, and since 2.0.9 on Windows and on a Mac as a beta.
 
-[The Studio](https://github.com/igrbible/Ruach_Studio) · [The Wiki](https://github.com/igrbible/Ruach_Studio/wiki) · [The visiting card](https://ruachstudio.art) · [Latest release: 2.0.9](https://github.com/igrbible/Ruach_Studio/releases/tag/v2.0.9)
+[The Studio](https://github.com/igrbible/Ruach_Studio) · [The Wiki](https://github.com/igrbible/Ruach_Studio/wiki) · [The visiting card](https://ruachstudio.art) · [Latest release: 2.0.10](https://github.com/igrbible/Ruach_Studio/releases/tag/v2.0.10) · [Release candidate: 2.1.0-rc2](https://github.com/igrbible/Ruach_Studio/releases/tag/v2.1.0-rc2)
 
 [Awesome YUE2](https://github.com/igrbible/Awesome-YUE2): our curated list of everything the YuE2 community has made.
 
@@ -19,19 +19,19 @@ It will ship as a model of its own, **Full Tsunami Wave 4.6B v1 by Ruach Studio*
 
 The Studio has run a 4.6B backbone beside the 3B ones since 2.0.9. There is no date. It ships when it passes our whole listening kit, the twenty Ring cards and the rest, by ear and by measure.
 
-### New in 2.0.9
+### New in 2.1.0-rc2
 
-- **Off Linux for the first time.** Native beta packages for Windows 11 and for Macs with Apple Silicon: one zip and a double-click, with no WSL2 and no Docker.
-- **Vocal over My Backing.** Bring an instrumental of your own. YuE2 writes its own melody over its chords and bars, and sings your lyrics.
-- **The song's history, re-singing from the break, several scores before any sound, Re-denoise and Re-decode.**
-- **The players play the take as it is.** No limiter and no compressor stand between you and the file.
+A release candidate, out on 24 November 2026; 2.0.10 stays the latest release until 2.1.0.
 
-The whole story: [Ruach Studio 2.0.9](https://github.com/igrbible/Ruach_Studio/wiki/Ruach-Studio-2.0.9) · [in Discussions](https://github.com/igrbible/Ruach_Studio/discussions/12).
+- **The whole of YuE2 in the install.** m-a-p's own backbone beside ours, both decoders and the transcriber with its Refined mode, so covers and remixes work from the first start, on Linux, Windows and the Mac.
+- **A missing model says so, and where to get it.** A control a missing model turns off looks off, names that model and opens Engine → Models at it.
+- **A voice for each paragraph** in the Narrator, and the Narrator's voice over a song's clip in the Videographer.
+- **Comping in the DAW**, the Refiner's Compare node, the chord guard, and every chooser of workspaces drawn as the Library's own tree.
 
-### Tip of the week: one take, two decoders
+Before it, 2.1.0-rc1 brought the Section editor and the Narrator in three columns: [its article](https://github.com/igrbible/Ruach_Studio/wiki/Ruach-Studio-2.1.0-rc1).
 
-Every take keeps the latents its sound was decoded from. Pick **Re-decode…** in its Edit menu, and the Studio makes that sound again through RS x3 v1, RS x3 v2 or Standard in seconds, without singing the song again. Then put the two versions side by side in the compare window.
+The whole story: [Ruach Studio 2.1.0-rc2](https://github.com/igrbible/Ruach_Studio/wiki/Ruach-Studio-2.1.0-rc2) · [in Discussions](https://github.com/igrbible/Ruach_Studio/discussions/17) · [the downloads](https://github.com/igrbible/Ruach_Studio/releases/tag/v2.1.0-rc2).
 
-We did this on one take this week. At equal loudness, RS x3 v1 measured 1.5 dB more air and top than Standard and 0.5 dB less in the middle. The dynamics and the stereo stayed the same. It is not an EQ: the part of the difference that no filter could produce sits only 10.9 dB under the music, where an EQ alone would leave about −40. Above 3 kHz, the decoder draws detail of its own.
+### Tip of the week: a cover from a recording
 
-More in the Wiki: [Switching decoders](https://github.com/igrbible/Ruach_Studio/wiki/Switching-decoders).
+Open the cover drawer in the Musician and pick a recording. Choose whether to keep its full plan with the chords or its melody alone, and let the transcriber read it: the score lands under «Supply your own score». Check the melody there, write new lyrics and a style, and sing. Since 2.1.0-rc2 the transcriber comes with every install; on an older one, the cover drawer's line opens Engine → Models at it.
